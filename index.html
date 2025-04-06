@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week4 Web Development Assignment</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Week4 Assignment</div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
+    <header>
+        <h1 id="main-title">Welcome to My Responsive Page</h1>
+        <p class="subtitle">Using Flexbox, Grid, and Media Queries</p>
+    </header>
+    
+    <main>
+        <section class="content-section">
+            <h2>About CSS Layout</h2>
+            <p>Modern CSS provides powerful layout systems like Flexbox and Grid that make designing responsive websites much easier.</p>
+            
+            <div class="image-container">
+                <img src="https://via.placeholder.com/300x200" alt="Placeholder image" class="featured-image">
+                <p class="image-caption">Example image styled with CSS</p>
+            </div>
+        </section>
+        
+        <section class="grid-showcase">
+            <h2>CSS Grid Features</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>Two-dimensional Layout</h3>
+                    <p>Control rows and columns simultaneously.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Gap Property</h3>
+                    <p>Add space between grid items easily.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Template Areas</h3>
+                    <p>Name and arrange sections visually.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Auto-placement</h3>
+                    <p>Let the browser position items automatically.</p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="flex-container">
+            <section class="flex-item content-section">
+                <h2>Flexbox Benefits</h2>
+                <ul>
+                    <li>One-dimensional layout (row or column)</li>
+                    <li>Easy alignment and distribution</li>
+                    <li>Flexible item sizing</li>
+                    <li>Reordering without changing HTML</li>
+                </ul>
+            </section>
+            
+            <section id="contact-section" class="flex-item">
+                <h2>Contact Information</h2>
+                <p>Feel free to reach out for more information about responsive CSS layouts.</p>
+                <a href="#" class="button">Contact Us</a>
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We specialize in modern web development techniques.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 Responsive CSS Layout</p>
+    </footer>
+</body>
+</html>
